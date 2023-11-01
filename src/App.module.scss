@@ -1,0 +1,20 @@
+.main{
+    padding: 4.5rem 0px;
+    background: rgb(39, 43, 51);
+    min-height: calc(50vh - 60px);
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+    row-gap: 25px;
+    margin-bottom: 50px;
+}
+
+.paginationContainer {
+  padding: 0 7.7%;
+  margin-bottom: 50px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
